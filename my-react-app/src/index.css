@@ -1,2 +1,11 @@
-@import "tailwindcss";
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+/* Century Gothic шрифт */
+@layer base {
+  html, body {
+    font-family: "Century Gothic", Arial, sans-serif;
+  }
+}
